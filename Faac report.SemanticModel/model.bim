@@ -1,0 +1,4011 @@
+{
+  "compatibilityLevel": 1601,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.1203.0 (24.07)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"LGA\",\"State\",\"Dashboard measure\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"CalcGroup\",\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "calendar": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "calendar": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "almanac": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "datebook": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "agenda": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "logbook": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "diary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "schedule": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "timetable": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "calendar.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "calendar.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "calendar.month_no_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Month No."
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month no.": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mth no.": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "month number .": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "calendar.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Quarter"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "calendar.quater_no_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Quater No."
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quater no.": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quater number .": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "calendar.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Calendar",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "dashboard_measure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dashboard measure"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dashboard measure": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dashboard degree": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "dashboard quantity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "dashboard quota": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "dashboard extent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "dashboard amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "dashboard portion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "dashboard ration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "dashboard size": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "dashboard_measure.prev_yr": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dashboard measure",
+                    "ConceptualProperty": "Prev Yr"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "prev yr": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dashboard_measure.v_Prev_Yr_FormatString_prev_yr_FormatString": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dashboard measure",
+                    "ConceptualProperty": "_Prev Yr FormatString"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_prev yr FormatString": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "dashboard_measure.v_VAR_FormatString_VAR_FormatString": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dashboard measure",
+                    "ConceptualProperty": "_VAR FormatString"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_VAR FormatString": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "dashboard_measure.v_VAR___FormatString_VAR__FormatString": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dashboard measure",
+                    "ConceptualProperty": "_VAR % FormatString"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_VAR % FormatString": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_var percentage formatstring": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "_var pct formatstring": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "dashboard_measure.var": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dashboard measure",
+                    "ConceptualProperty": "VAR"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "var": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dashboard_measure.var_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dashboard measure",
+                    "ConceptualProperty": "VAR %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "var %": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "var percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "var pct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "distinct_state": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Distinct States"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "distinct state": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "distinct location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "distinct province": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "distinct territory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "distinct nation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "distinct condition": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "distinct country": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "distinct_state.state": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Distinct States",
+                    "ConceptualProperty": "STATE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {},
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "province": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "territory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "nation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "condition": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "country": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "lga": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "LGA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "lga": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "lga.LGA_allocation": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "LGA",
+                    "ConceptualProperty": "LGA Allocation"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "LGA allocation": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "lga distribution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "lga apportionment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "lga division": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "lga provision": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "lga sharing": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "lga allotment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "lga share": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "lga portion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "lga part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "lga allowance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "lga.allocation": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "LGA",
+                    "ConceptualProperty": "Allocation"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "allocation": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "distribution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "apportionment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "division": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "provision": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "sharing": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "allotment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "share": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "portion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "allowance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "lga.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "LGA",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "lga.lgc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "LGA",
+                    "ConceptualProperty": "LGC"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "lgc": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "lga.state": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "LGA",
+                    "ConceptualProperty": "STATE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {},
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "province": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "territory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "nation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "condition": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "country": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "lga.v_LGA_Allocation_FormatString_LGA_allocation_FormatString": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "LGA",
+                    "ConceptualProperty": "_LGA Allocation FormatString"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_LGA allocation FormatString": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "measure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "measure": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "degree": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "quota": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "extent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "portion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "ration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "size": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "measure.measure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure",
+                    "ConceptualProperty": "Measure"
+                  }
+                },
+                "NameType": "Name",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "measure": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "measure name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "degree": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "quota": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "extent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "portion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "ration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "size": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "measure.measure_field": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure",
+                    "ConceptualProperty": "Measure Fields"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "measure field": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "field": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "measure arena": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "arena": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "measure turf": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure ground": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure pitch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure park": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "turf": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "ground": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pitch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "park": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "measure.measure_order": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure",
+                    "ConceptualProperty": "Measure Order"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "measure order": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "order": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "measure instruction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "measure direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "measure edict": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instruction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "edict": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "measure command": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure directive": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure demand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "measure mandate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "measure.switch": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure",
+                    "ConceptualProperty": "Switch"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "switch": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "adjustment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "modification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "alteration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "change": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "shift": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "difference": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "regulator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "button": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "control": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "knob": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "Current Yr": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "measure.v_Switch_FormatString_switch_FormatString": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure",
+                    "ConceptualProperty": "_Switch FormatString"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_switch FormatString": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "state.allocation": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "State",
+                    "ConceptualProperty": "Allocation"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "allocation": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "distribution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "apportionment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "division": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "provision": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "sharing": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "allotment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "share": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "portion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "allowance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "state.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "State",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "state.state": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "State",
+                    "ConceptualProperty": "State"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {},
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "province": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "territory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "nation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "condition": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "country": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "state.state_allocation": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "State",
+                    "ConceptualProperty": "State Allocation"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "state allocation": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "location allocation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "province allocation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "territory allocation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "nation allocation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "condition allocation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "country allocation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "state distribution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "state apportionment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "state division": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "state provision": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "state.v_State_Allocation_FormatString_state_allocation_FormatString": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "State",
+                    "ConceptualProperty": "_State Allocation FormatString"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_state allocation FormatString": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_ location allocation formatstring": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "_ province allocation formatstring": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "_ territory allocation formatstring": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "_ nation allocation formatstring": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "_ condition allocation formatstring": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "_ country allocation formatstring": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "time_intelligence": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Time Intelligence"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "time intelligence": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "intelligence": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "duration intelligence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "interval intelligence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "moment intelligence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period intelligence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "timetable intelligence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "time intellect": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "time acumen": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "time aptitude": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "time astuteness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "time cleverness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  }
+                ]
+              },
+              "time_intelligence.calculation_group_column": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Time Intelligence",
+                    "ConceptualProperty": "Calculation group column"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "calculation group column": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "group column": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "calculation category column": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "calculation organization column": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "category column": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "organization column": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "calculation bracket column": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "calculation class column": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "calculation crew column": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "calculation team column": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "bracket column": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "class column": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "time_intelligence.ordinal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Time Intelligence",
+                    "ConceptualProperty": "Ordinal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ordinal": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "calendar_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.date"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "ID": "calendars_have_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.date": {
+                    "Target": {
+                      "Entity": "calendar.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.month"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "ID": "calendars_have_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.month": {
+                    "Target": {
+                      "Entity": "calendar.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.quarter"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "ID": "calendars_have_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.quarter": {
+                    "Target": {
+                      "Entity": "calendar.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "calendar_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Calendar"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar.year"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "ID": "calendars_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "calendar.year": {
+                    "Target": {
+                      "Entity": "calendar.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "distinct_state_has_state": {
+                "Binding": {
+                  "ConceptualEntity": "Distinct States"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "distinct_state.state"
+                      },
+                      "Subject": {
+                        "Role": "distinct_state"
+                      }
+                    },
+                    "ID": "distinct_states_have_states",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "distinct_state": {
+                    "Target": {
+                      "Entity": "distinct_state"
+                    }
+                  },
+                  "distinct_state.state": {
+                    "Target": {
+                      "Entity": "distinct_state.state"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "distinct_state_in_state": {
+                "Binding": {
+                  "ConceptualEntity": "Distinct States"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "distinct_states_are_in_states",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "distinct_state.state"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "distinct_state"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "distinct_state": {
+                    "Target": {
+                      "Entity": "distinct_state"
+                    }
+                  },
+                  "distinct_state.state": {
+                    "Target": {
+                      "Entity": "distinct_state.state"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "distinct_state.state"
+                  }
+                },
+                "State": "Generated"
+              },
+              "lga_has_LGA_allocation": {
+                "Binding": {
+                  "ConceptualEntity": "LGA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lga.LGA_allocation"
+                      },
+                      "Subject": {
+                        "Role": "lga"
+                      }
+                    },
+                    "ID": "lgas_have_LGA_allocation",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lga": {
+                    "Target": {
+                      "Entity": "lga"
+                    }
+                  },
+                  "lga.LGA_allocation": {
+                    "Target": {
+                      "Entity": "lga.LGA_allocation"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lga_has_allocation": {
+                "Binding": {
+                  "ConceptualEntity": "LGA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lga.allocation"
+                      },
+                      "Subject": {
+                        "Role": "lga"
+                      }
+                    },
+                    "ID": "lgas_have_allocations",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lga": {
+                    "Target": {
+                      "Entity": "lga"
+                    }
+                  },
+                  "lga.allocation": {
+                    "Target": {
+                      "Entity": "lga.allocation"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lga_has_calendar": {
+                "Binding": {
+                  "ConceptualEntity": "LGA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar"
+                      },
+                      "Subject": {
+                        "Role": "lga"
+                      }
+                    },
+                    "ID": "lgas_have_calendars",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lga"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "ID": "calendars_have_lgas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  },
+                  "lga": {
+                    "Target": {
+                      "Entity": "lga"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lga_has_dashboard_measure_prev_yr": {
+                "Binding": {
+                  "ConceptualEntity": "LGA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dashboard_measure.prev_yr"
+                      },
+                      "Subject": {
+                        "Role": "lga"
+                      }
+                    },
+                    "ID": "lgas_have_prev_yr",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dashboard_measure.prev_yr": {
+                    "Target": {
+                      "Entity": "dashboard_measure.prev_yr"
+                    }
+                  },
+                  "lga": {
+                    "Target": {
+                      "Entity": "lga"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lga_has_dashboard_measure_var": {
+                "Binding": {
+                  "ConceptualEntity": "LGA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dashboard_measure.var"
+                      },
+                      "Subject": {
+                        "Role": "lga"
+                      }
+                    },
+                    "ID": "lgas_have_var",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dashboard_measure.var": {
+                    "Target": {
+                      "Entity": "dashboard_measure.var"
+                    }
+                  },
+                  "lga": {
+                    "Target": {
+                      "Entity": "lga"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lga_has_dashboard_measure_var_": {
+                "Binding": {
+                  "ConceptualEntity": "LGA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dashboard_measure.var_"
+                      },
+                      "Subject": {
+                        "Role": "lga"
+                      }
+                    },
+                    "ID": "lgas_have_var_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dashboard_measure.var_": {
+                    "Target": {
+                      "Entity": "dashboard_measure.var_"
+                    }
+                  },
+                  "lga": {
+                    "Target": {
+                      "Entity": "lga"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lga_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "LGA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lga.date"
+                      },
+                      "Subject": {
+                        "Role": "lga"
+                      }
+                    },
+                    "ID": "lgas_have_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lga": {
+                    "Target": {
+                      "Entity": "lga"
+                    }
+                  },
+                  "lga.date": {
+                    "Target": {
+                      "Entity": "lga.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lga_has_lgc": {
+                "Binding": {
+                  "ConceptualEntity": "LGA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "lga.lgc"
+                      },
+                      "Subject": {
+                        "Role": "lga"
+                      }
+                    },
+                    "ID": "lgas_have_lgcs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lga": {
+                    "Target": {
+                      "Entity": "lga"
+                    }
+                  },
+                  "lga.lgc": {
+                    "Target": {
+                      "Entity": "lga.lgc"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "lga_has_measure_switch": {
+                "Binding": {
+                  "ConceptualEntity": "LGA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.switch"
+                      },
+                      "Subject": {
+                        "Role": "lga"
+                      }
+                    },
+                    "ID": "lgas_have_switch",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "lga": {
+                    "Target": {
+                      "Entity": "lga"
+                    }
+                  },
+                  "measure.switch": {
+                    "Target": {
+                      "Entity": "measure.switch"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_dashboard_measure_prev_yr": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dashboard_measure.prev_yr"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "ID": "measures_have_prev_yr",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dashboard_measure.prev_yr": {
+                    "Target": {
+                      "Entity": "dashboard_measure.prev_yr"
+                    }
+                  },
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_dashboard_measure_var": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dashboard_measure.var"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "ID": "measures_have_var",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dashboard_measure.var": {
+                    "Target": {
+                      "Entity": "dashboard_measure.var"
+                    }
+                  },
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_dashboard_measure_var_": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dashboard_measure.var_"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "ID": "measures_have_var_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dashboard_measure.var_": {
+                    "Target": {
+                      "Entity": "dashboard_measure.var_"
+                    }
+                  },
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_switch": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.switch"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "ID": "measures_have_switch",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  },
+                  "measure.switch": {
+                    "Target": {
+                      "Entity": "measure.switch"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_is_named_measure": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "measures_are_names_IDs_of_measures",
+                    "Name": {
+                      "Name": {
+                        "Role": "measure.measure"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.measure"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "ID": "measures_have_measures",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  },
+                  "measure.measure": {
+                    "Target": {
+                      "Entity": "measure.measure"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "state_has_allocation": {
+                "Binding": {
+                  "ConceptualEntity": "State"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "state.allocation"
+                      },
+                      "Subject": {
+                        "Role": "state"
+                      }
+                    },
+                    "ID": "states_have_allocations",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "state.allocation": {
+                    "Target": {
+                      "Entity": "state.allocation"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "state_has_calendar": {
+                "Binding": {
+                  "ConceptualEntity": "State"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "calendar"
+                      },
+                      "Subject": {
+                        "Role": "state"
+                      }
+                    },
+                    "ID": "states_have_calendars",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "state"
+                      },
+                      "Subject": {
+                        "Role": "calendar"
+                      }
+                    },
+                    "ID": "calendars_have_states",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "calendar": {
+                    "Target": {
+                      "Entity": "calendar"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "state_has_dashboard_measure_prev_yr": {
+                "Binding": {
+                  "ConceptualEntity": "State"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dashboard_measure.prev_yr"
+                      },
+                      "Subject": {
+                        "Role": "state"
+                      }
+                    },
+                    "ID": "states_have_prev_yr",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dashboard_measure.prev_yr": {
+                    "Target": {
+                      "Entity": "dashboard_measure.prev_yr"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "state_has_dashboard_measure_var": {
+                "Binding": {
+                  "ConceptualEntity": "State"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dashboard_measure.var"
+                      },
+                      "Subject": {
+                        "Role": "state"
+                      }
+                    },
+                    "ID": "states_have_var",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dashboard_measure.var": {
+                    "Target": {
+                      "Entity": "dashboard_measure.var"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "state_has_dashboard_measure_var_": {
+                "Binding": {
+                  "ConceptualEntity": "State"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dashboard_measure.var_"
+                      },
+                      "Subject": {
+                        "Role": "state"
+                      }
+                    },
+                    "ID": "states_have_var_",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dashboard_measure.var_": {
+                    "Target": {
+                      "Entity": "dashboard_measure.var_"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "state_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "State"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "state.date"
+                      },
+                      "Subject": {
+                        "Role": "state"
+                      }
+                    },
+                    "ID": "states_have_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "state.date": {
+                    "Target": {
+                      "Entity": "state.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "state_has_measure_switch": {
+                "Binding": {
+                  "ConceptualEntity": "State"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.switch"
+                      },
+                      "Subject": {
+                        "Role": "state"
+                      }
+                    },
+                    "ID": "states_have_switch",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure.switch": {
+                    "Target": {
+                      "Entity": "measure.switch"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "state_has_state_allocation": {
+                "Binding": {
+                  "ConceptualEntity": "State"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "state.state_allocation"
+                      },
+                      "Subject": {
+                        "Role": "state"
+                      }
+                    },
+                    "ID": "states_have_state_allocation",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "state.state_allocation": {
+                    "Target": {
+                      "Entity": "state.state_allocation"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "time_intelligence_has_calculation_group_column": {
+                "Binding": {
+                  "ConceptualEntity": "Time Intelligence"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "time_intelligence.calculation_group_column"
+                      },
+                      "Subject": {
+                        "Role": "time_intelligence"
+                      }
+                    },
+                    "ID": "time_intelligences_have_calculation_group_columns",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "time_intelligence": {
+                    "Target": {
+                      "Entity": "time_intelligence"
+                    }
+                  },
+                  "time_intelligence.calculation_group_column": {
+                    "Target": {
+                      "Entity": "time_intelligence.calculation_group_column"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "time_intelligence_has_ordinal": {
+                "Binding": {
+                  "ConceptualEntity": "Time Intelligence"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "time_intelligence.ordinal"
+                      },
+                      "Subject": {
+                        "Role": "time_intelligence"
+                      }
+                    },
+                    "ID": "time_intelligences_have_ordinals",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "time_intelligence": {
+                    "Target": {
+                      "Entity": "time_intelligence"
+                    }
+                  },
+                  "time_intelligence.ordinal": {
+                    "Target": {
+                      "Entity": "time_intelligence.ordinal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "discourageImplicitMeasures": true,
+    "relationships": [
+      {
+        "name": "337c2350-00cf-f2b4-fdcd-b182292e254b",
+        "fromColumn": "Date",
+        "fromTable": "LGA",
+        "toColumn": "Date",
+        "toTable": "Calendar"
+      },
+      {
+        "name": "23c96cb0-64e6-1f62-7708-9ef8e2933a28",
+        "fromColumn": "Date",
+        "fromTable": "State",
+        "toColumn": "Date",
+        "toTable": "Calendar"
+      },
+      {
+        "name": "33bae74f-72cf-5824-af43-2a3049af3b53",
+        "fromColumn": "STATE",
+        "fromTable": "LGA",
+        "toColumn": "STATE",
+        "toTable": "Distinct States"
+      },
+      {
+        "name": "a0ea99e6-d572-ea7d-8e65-20da81a12526",
+        "fromColumn": "State",
+        "fromTable": "State",
+        "toColumn": "STATE",
+        "toTable": "Distinct States"
+      }
+    ],
+    "sourceQueryCulture": "en-GB",
+    "tables": [
+      {
+        "name": "LGA",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "STATE",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "363877c2-c3ff-4bc7-933f-32e135532b21",
+            "sourceColumn": "STATE",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LGC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8e1a9d6a-2950-48de-86c5-4246ce8ddd1e",
+            "sourceColumn": "LGC",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "277abf4b-8fa4-49a1-9185-db9644d7ab63",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Allocation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-NG\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\"₦\"#,0.00;-\"₦\"#,0.00;\"₦\"#,0.00",
+            "lineageTag": "25fd72d2-ec9e-498a-9c4a-93e461cc3823",
+            "sourceColumn": "Allocation",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "0f023655-eb0a-4a87-b6f8-803b304c70cc",
+        "measures": [
+          {
+            "name": "LGA Allocation",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-NG\"}"
+              }
+            ],
+            "expression": "SUM(LGA[Allocation])",
+            "formatString": "\"₦\"#,0.00;-\"₦\"#,0.00;\"₦\"#,0.00",
+            "lineageTag": "a1566d65-bd50-4be9-903f-aa77ca68945b"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "LGA",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\yusuf\\Downloads\\FAAC DATA - Data Community.xlsx\"), null, true),",
+                "    LGA_Sheet = Source{[Item=\"LGA\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(LGA_Sheet,{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type any}, {\"Column4\", type any}, {\"Column5\", type any}, {\"Column6\", type any}, {\"Column7\", type any}, {\"Column8\", type any}, {\"Column9\", type any}, {\"Column10\", type any}, {\"Column11\", type any}, {\"Column12\", type any}, {\"Column13\", type any}, {\"Column14\", type any}, {\"Column15\", type any}, {\"Column16\", type any}, {\"Column17\", type any}, {\"Column18\", type any}, {\"Column19\", type any}, {\"Column20\", type any}, {\"Column21\", type any}, {\"Column22\", type any}, {\"Column23\", type any}, {\"Column24\", type any}, {\"Column25\", type any}, {\"Column26\", type any}, {\"Column27\", type any}, {\"Column28\", type any}, {\"Column29\", type any}, {\"Column30\", type any}, {\"Column31\", type any}, {\"Column32\", type any}, {\"Column33\", type any}, {\"Column34\", type any}, {\"Column35\", type any}, {\"Column36\", type any}, {\"Column37\", type any}, {\"Column38\", type any}, {\"Column39\", type any}, {\"Column40\", type any}, {\"Column41\", type any}, {\"Column42\", type any}, {\"Column43\", type any}, {\"Column44\", type any}, {\"Column45\", type any}, {\"Column46\", type any}, {\"Column47\", type any}, {\"Column48\", type any}, {\"Column49\", type any}, {\"Column50\", type any}, {\"Column51\", type any}, {\"Column52\", type any}, {\"Column53\", type any}, {\"Column54\", type any}, {\"Column55\", type any}, {\"Column56\", type any}, {\"Column57\", type any}, {\"Column58\", type any}, {\"Column59\", type any}, {\"Column60\", type any}, {\"Column61\", type any}, {\"Column62\", type any}, {\"Column63\", type any}, {\"Column64\", type any}, {\"Column65\", type any}, {\"Column66\", type any}, {\"Column67\", type any}, {\"Column68\", type any}, {\"Column69\", type any}, {\"Column70\", type any}, {\"Column71\", type any}, {\"Column72\", type any}, {\"Column73\", type any}, {\"Column74\", type any}, {\"Column75\", type any}, {\"Column76\", type any}, {\"Column77\", type any}, {\"Column78\", type any}, {\"Column79\", type any}, {\"Column80\", type any}, {\"Column81\", type any}, {\"Column82\", type any}, {\"Column83\", type any}, {\"Column84\", type any}, {\"Column85\", type any}, {\"Column86\", type any}, {\"Column87\", type any}, {\"Column88\", type any}, {\"Column89\", type any}, {\"Column90\", type any}, {\"Column91\", type any}, {\"Column92\", type any}, {\"Column93\", type any}, {\"Column94\", type any}, {\"Column95\", type any}, {\"Column96\", type any}, {\"Column97\", type any}, {\"Column98\", type any}, {\"Column99\", type any}, {\"Column100\", type any}, {\"Column101\", type any}, {\"Column102\", type any}, {\"Column103\", type any}, {\"Column104\", type any}, {\"Column105\", type any}, {\"Column106\", type any}, {\"Column107\", type any}, {\"Column108\", type any}, {\"Column109\", type any}, {\"Column110\", type any}, {\"Column111\", type any}, {\"Column112\", type any}, {\"Column113\", type any}, {\"Column114\", type any}, {\"Column115\", type any}, {\"Column116\", type any}, {\"Column117\", type any}, {\"Column118\", type any}, {\"Column119\", type any}, {\"Column120\", type any}, {\"Column121\", type any}, {\"Column122\", type any}, {\"Column123\", type any}, {\"Column124\", type any}, {\"Column125\", type any}, {\"Column126\", type any}, {\"Column127\", type any}, {\"Column128\", type any}, {\"Column129\", type any}, {\"Column130\", type any}, {\"Column131\", type any}, {\"Column132\", type any}, {\"Column133\", type any}, {\"Column134\", type any}, {\"Column135\", type any}, {\"Column136\", type any}, {\"Column137\", type any}, {\"Column138\", type any}, {\"Column139\", type any}, {\"Column140\", type any}, {\"Column141\", type any}, {\"Column142\", type any}, {\"Column143\", type any}, {\"Column144\", type any}, {\"Column145\", type any}, {\"Column146\", type any}, {\"Column147\", type any}, {\"Column148\", type any}, {\"Column149\", type any}, {\"Column150\", type any}, {\"Column151\", type any}, {\"Column152\", type any}, {\"Column153\", type any}, {\"Column154\", type any}, {\"Column155\", type any}, {\"Column156\", type any}, {\"Column157\", type any}, {\"Column158\", type any}, {\"Column159\", type any}, {\"Column160\", type any}, {\"Column161\", type any}, {\"Column162\", type any}, {\"Column163\", type any}, {\"Column164\", type any}, {\"Column165\", type any}, {\"Column166\", type any}, {\"Column167\", type any}, {\"Column168\", type any}, {\"Column169\", type any}, {\"Column170\", type any}, {\"Column171\", type any}, {\"Column172\", type any}, {\"Column173\", type date}, {\"Column174\", type date}, {\"Column175\", type date}, {\"Column176\", type date}, {\"Column177\", type date}, {\"Column178\", type date}, {\"Column179\", type date}, {\"Column180\", type date}, {\"Column181\", type date}, {\"Column182\", type any}, {\"Column183\", type any}, {\"Column184\", type any}, {\"Column185\", type any}, {\"Column186\", type any}, {\"Column187\", type any}, {\"Column188\", type any}, {\"Column189\", type any}, {\"Column190\", type any}, {\"Column191\", type any}, {\"Column192\", type any}, {\"Column193\", type any}, {\"Column194\", type any}, {\"Column195\", type any}, {\"Column196\", type any}, {\"Column197\", type any}, {\"Column198\", type any}, {\"Column199\", type any}, {\"Column200\", type any}, {\"Column201\", type any}, {\"Column202\", type any}, {\"Column203\", type any}, {\"Column204\", type any}, {\"Column205\", type any}, {\"Column206\", type any}, {\"Column207\", type any}, {\"Column208\", type any}, {\"Column209\", type any}, {\"Column210\", type any}, {\"Column211\", type any}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"STATE\", type text}, {\"LGC\", type text}, {\"01/01/2007\", type number}, {\"01/02/2007\", type number}, {\"01/03/2007\", type number}, {\"01/04/2007\", type number}, {\"01/05/2007\", type number}, {\"01/06/2007\", type number}, {\"01/07/2007\", type number}, {\"01/08/2007\", type number}, {\"01/09/2007\", type number}, {\"01/10/2007\", type number}, {\"01/11/2007\", type number}, {\"01/12/2007\", type number}, {\"01/01/2008\", type number}, {\"01/02/2008\", type number}, {\"01/03/2008\", type number}, {\"01/04/2008\", type number}, {\"01/05/2008\", type number}, {\"01/06/2008\", type number}, {\"01/07/2008\", type number}, {\"01/08/2008\", type number}, {\"01/09/2008\", type number}, {\"01/10/2008\", type number}, {\"01/11/2008\", type number}, {\"01/12/2008\", type number}, {\"01/01/2009\", type number}, {\"01/02/2009\", type number}, {\"01/03/2009\", type number}, {\"01/04/2009\", type number}, {\"01/05/2009\", type number}, {\"01/06/2009\", type number}, {\"01/07/2009\", type number}, {\"01/08/2009\", type number}, {\"01/09/2009\", type number}, {\"01/10/2009\", type number}, {\"01/11/2009\", type number}, {\"01/12/2009\", type number}, {\"01/01/2010\", type number}, {\"01/02/2010\", type number}, {\"01/03/2010\", type number}, {\"01/04/2010\", type number}, {\"01/05/2010\", type number}, {\"01/06/2010\", type number}, {\"01/07/2010\", type number}, {\"01/08/2010\", type number}, {\"01/09/2010\", type number}, {\"01/10/2010\", type number}, {\"01/11/2010\", type number}, {\"01/12/2010\", type number}, {\"01/01/2011\", type number}, {\"01/02/2011\", type number}, {\"01/03/2011\", type number}, {\"01/04/2011\", type number}, {\"01/05/2011\", type number}, {\"01/06/2011\", type number}, {\"01/07/2011\", type number}, {\"01/08/2011\", type number}, {\"01/09/2011\", type number}, {\"01/10/2011\", type number}, {\"01/11/2011\", type number}, {\"01/12/2011\", type number}, {\"01/01/2012\", type number}, {\"01/02/2012\", type number}, {\"01/03/2012\", type number}, {\"01/04/2012\", type number}, {\"01/05/2012\", type number}, {\"01/06/2012\", type number}, {\"01/07/2012\", type number}, {\"01/08/2012\", type number}, {\"01/09/2012\", type number}, {\"01/10/2012\", type number}, {\"01/11/2012\", type number}, {\"01/12/2012\", type number}, {\"01/01/2013\", type number}, {\"01/02/2013\", type number}, {\"01/03/2013\", type number}, {\"01/04/2013\", type number}, {\"01/05/2013\", type number}, {\"01/06/2013\", type number}, {\"01/07/2013\", type number}, {\"01/08/2013\", type number}, {\"01/09/2013\", type number}, {\"01/10/2013\", type number}, {\"01/11/2013\", type number}, {\"01/12/2013\", type number}, {\"01/01/2014\", type number}, {\"01/02/2014\", type number}, {\"01/03/2014\", type number}, {\"01/04/2014\", type number}, {\"01/05/2014\", type number}, {\"01/06/2014\", type number}, {\"01/07/2014\", type number}, {\"01/08/2014\", type number}, {\"01/09/2014\", type number}, {\"01/10/2014\", type number}, {\"01/11/2014\", type number}, {\"01/12/2014\", type number}, {\"01/01/2015\", type number}, {\"01/02/2015\", type number}, {\"01/03/2015\", type number}, {\"01/04/2015\", type number}, {\"01/05/2015\", type number}, {\"01/06/2015\", type number}, {\"01/07/2015\", type number}, {\"01/08/2015\", type number}, {\"01/09/2015\", type number}, {\"01/10/2015\", type number}, {\"01/11/2015\", type number}, {\"01/12/2015\", type number}, {\"01/01/2016\", type number}, {\"01/02/2016\", type number}, {\"01/03/2016\", type number}, {\"01/04/2016\", type number}, {\"01/05/2016\", type number}, {\"01/06/2016\", type number}, {\"01/07/2016\", type number}, {\"01/08/2016\", type number}, {\"01/09/2016\", type number}, {\"01/10/2016\", type number}, {\"01/11/2016\", type number}, {\"01/12/2016\", type number}, {\"01/01/2017\", type number}, {\"01/02/2017\", type number}, {\"01/03/2017\", type number}, {\"01/04/2017\", type number}, {\"01/05/2017\", type number}, {\"01/06/2017\", type number}, {\"01/07/2017\", type number}, {\"01/08/2017\", type number}, {\"01/09/2017\", type number}, {\"01/10/2017\", type number}, {\"01/11/2017\", type number}, {\"01/12/2017\", type number}, {\"01/01/2018\", type number}, {\"01/02/2018\", type number}, {\"01/03/2018\", type number}, {\"01/04/2018\", type number}, {\"01/05/2018\", type number}, {\"01/06/2018\", type number}, {\"01/07/2018\", type number}, {\"01/08/2018\", type number}, {\"01/09/2018\", type number}, {\"01/10/2018\", type number}, {\"01/11/2018\", type number}, {\"01/12/2018\", type number}, {\"01/01/2019\", type number}, {\"01/02/2019\", type number}, {\"01/03/2019\", type number}, {\"01/04/2019\", type number}, {\"01/05/2019\", type number}, {\"01/06/2019\", type number}, {\"01/07/2019\", type number}, {\"01/08/2019\", type number}, {\"01/09/2019\", type number}, {\"01/10/2019\", type number}, {\"01/11/2019\", type number}, {\"01/12/2019\", type number}, {\"01/01/2020\", type number}, {\"01/02/2020\", type number}, {\"01/03/2020\", type number}, {\"01/04/2020\", type number}, {\"01/05/2020\", type number}, {\"01/06/2020\", type number}, {\"01/07/2020\", type number}, {\"01/08/2020\", type number}, {\"01/09/2020\", type number}, {\"01/10/2020\", type number}, {\"01/11/2020\", type number}, {\"01/12/2020\", type number}, {\"01/01/2021\", type number}, {\"01/02/2021\", type number}, {\"01/03/2021\", type date}, {\"01/04/2021\", type date}, {\"01/05/2021\", type date}, {\"01/06/2021\", type date}, {\"01/07/2021\", type date}, {\"01/08/2021\", type date}, {\"01/09/2021\", type date}, {\"01/10/2021\", type date}, {\"01/11/2021\", type date}, {\"01/12/2021\", type number}, {\"01/01/2022\", type number}, {\"01/02/2022\", type number}, {\"01/03/2022\", type number}, {\"01/04/2022\", type number}, {\"01/05/2022\", type number}, {\"01/06/2022\", type number}, {\"01/07/2022\", type number}, {\"01/08/2022\", type number}, {\"01/09/2022\", type number}, {\"01/10/2022\", type number}, {\"01/11/2022\", type number}, {\"01/12/2022\", type number}, {\"01/01/2023\", type number}, {\"01/02/2023\", type number}, {\"01/03/2023\", type number}, {\"01/04/2023\", type number}, {\"01/05/2023\", type number}, {\"01/06/2023\", type number}, {\"01/07/2023\", type number}, {\"01/08/2023\", type number}, {\"01/09/2023\", type number}, {\"01/10/2023\", type number}, {\"01/11/2023\", type number}, {\"01/12/2023\", type number}, {\"01/01/2024\", type number}, {\"01/02/2024\", type number}, {\"01/03/2024\", type number}, {\"01/04/2024\", type number}, {\"01/05/2024\", type number}}),",
+                "    #\"Unpivoted Other Columns\" = Table.UnpivotOtherColumns(#\"Changed Type1\", {\"STATE\", \"LGC\"}, \"Attribute\", \"Value\"),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Unpivoted Other Columns\",{{\"Value\", Currency.Type}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type2\",{{\"Attribute\", \"Date\"}, {\"Value\", \"Allocation\"}}),",
+                "    #\"Changed Type3\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"Date\", type date}}),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Changed Type3\",\"NASSARAWA\",\"Nasarawa\",Replacer.ReplaceText,{\"STATE\"})",
+                "in",
+                "    #\"Replaced Value\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "State",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "State",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7b035c47-b217-45b4-8dfb-7e59333807eb",
+            "sourceColumn": "State",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "cd24d893-9c66-4107-b95f-9aae1a9391c6",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Allocation",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-NG\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\"₦\"#,0.00;-\"₦\"#,0.00;\"₦\"#,0.00",
+            "lineageTag": "60fe2508-3e0b-42aa-aa04-c54251975754",
+            "sourceColumn": "Allocation",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "18ed6d07-c053-41a6-881f-e3567bffc05c",
+        "measures": [
+          {
+            "name": "State Allocation",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-NG\"}"
+              }
+            ],
+            "expression": "SUM(State[Allocation])",
+            "formatString": "\"₦\"#,0.00;-\"₦\"#,0.00;\"₦\"#,0.00",
+            "lineageTag": "9926cf45-0b1e-4b3e-ad24-c8cc628cfd00"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "State",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\yusuf\\Downloads\\FAAC DATA - Data Community.xlsx\"), null, true),",
+                "    State_Sheet = Source{[Item=\"State\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(State_Sheet,{{\"Column1\", type text}, {\"Column2\", type any}, {\"Column3\", type any}, {\"Column4\", type any}, {\"Column5\", type any}, {\"Column6\", type any}, {\"Column7\", type any}, {\"Column8\", type any}, {\"Column9\", type any}, {\"Column10\", type any}, {\"Column11\", type any}, {\"Column12\", type any}, {\"Column13\", type any}, {\"Column14\", type any}, {\"Column15\", type any}, {\"Column16\", type any}, {\"Column17\", type any}, {\"Column18\", type any}, {\"Column19\", type any}, {\"Column20\", type any}, {\"Column21\", type any}, {\"Column22\", type any}, {\"Column23\", type any}, {\"Column24\", type any}, {\"Column25\", type any}, {\"Column26\", type any}, {\"Column27\", type any}, {\"Column28\", type any}, {\"Column29\", type any}, {\"Column30\", type any}, {\"Column31\", type any}, {\"Column32\", type any}, {\"Column33\", type any}, {\"Column34\", type any}, {\"Column35\", type any}, {\"Column36\", type any}, {\"Column37\", type any}, {\"Column38\", type any}, {\"Column39\", type any}, {\"Column40\", type any}, {\"Column41\", type any}, {\"Column42\", type any}, {\"Column43\", type any}, {\"Column44\", type any}, {\"Column45\", type any}, {\"Column46\", type any}, {\"Column47\", type any}, {\"Column48\", type any}, {\"Column49\", type any}, {\"Column50\", type any}, {\"Column51\", type any}, {\"Column52\", type any}, {\"Column53\", type any}, {\"Column54\", type any}, {\"Column55\", type any}, {\"Column56\", type any}, {\"Column57\", type any}, {\"Column58\", type any}, {\"Column59\", type any}, {\"Column60\", type any}, {\"Column61\", type any}, {\"Column62\", type any}, {\"Column63\", type any}, {\"Column64\", type any}, {\"Column65\", type any}, {\"Column66\", type any}, {\"Column67\", type any}, {\"Column68\", type any}, {\"Column69\", type any}, {\"Column70\", type any}, {\"Column71\", type any}, {\"Column72\", type any}, {\"Column73\", type any}, {\"Column74\", type any}, {\"Column75\", type any}, {\"Column76\", type any}, {\"Column77\", type any}, {\"Column78\", type any}, {\"Column79\", type any}, {\"Column80\", type any}, {\"Column81\", type any}, {\"Column82\", type any}, {\"Column83\", type any}, {\"Column84\", type any}, {\"Column85\", type any}, {\"Column86\", type any}, {\"Column87\", type any}, {\"Column88\", type any}, {\"Column89\", type any}, {\"Column90\", type any}, {\"Column91\", type any}, {\"Column92\", type any}, {\"Column93\", type any}, {\"Column94\", type any}, {\"Column95\", type any}, {\"Column96\", type any}, {\"Column97\", type any}, {\"Column98\", type any}, {\"Column99\", type any}, {\"Column100\", type any}, {\"Column101\", type any}, {\"Column102\", type any}, {\"Column103\", type any}, {\"Column104\", type any}, {\"Column105\", type any}, {\"Column106\", type any}, {\"Column107\", type any}, {\"Column108\", type any}, {\"Column109\", type any}, {\"Column110\", type any}, {\"Column111\", type any}, {\"Column112\", type any}, {\"Column113\", type any}, {\"Column114\", type any}, {\"Column115\", type any}, {\"Column116\", type any}, {\"Column117\", type any}, {\"Column118\", type any}, {\"Column119\", type any}, {\"Column120\", type any}, {\"Column121\", type any}, {\"Column122\", type any}, {\"Column123\", type any}, {\"Column124\", type any}, {\"Column125\", type any}, {\"Column126\", type any}, {\"Column127\", type any}, {\"Column128\", type any}, {\"Column129\", type any}, {\"Column130\", type any}, {\"Column131\", type any}, {\"Column132\", type any}, {\"Column133\", type any}, {\"Column134\", type any}, {\"Column135\", type any}, {\"Column136\", type any}, {\"Column137\", type any}, {\"Column138\", type any}, {\"Column139\", type any}, {\"Column140\", type any}, {\"Column141\", type any}, {\"Column142\", type any}, {\"Column143\", type any}, {\"Column144\", type any}, {\"Column145\", type any}, {\"Column146\", type any}, {\"Column147\", type any}, {\"Column148\", type any}, {\"Column149\", type any}, {\"Column150\", type any}, {\"Column151\", type any}, {\"Column152\", type any}, {\"Column153\", type any}, {\"Column154\", type any}, {\"Column155\", type any}, {\"Column156\", type any}, {\"Column157\", type any}, {\"Column158\", type any}, {\"Column159\", type any}, {\"Column160\", type any}, {\"Column161\", type any}, {\"Column162\", type any}, {\"Column163\", type any}, {\"Column164\", type any}, {\"Column165\", type any}, {\"Column166\", type any}, {\"Column167\", type any}, {\"Column168\", type any}, {\"Column169\", type any}, {\"Column170\", type any}, {\"Column171\", type any}, {\"Column172\", type any}, {\"Column173\", type any}, {\"Column174\", type any}, {\"Column175\", type any}, {\"Column176\", type any}, {\"Column177\", type any}, {\"Column178\", type any}, {\"Column179\", type any}, {\"Column180\", type any}, {\"Column181\", type any}, {\"Column182\", type any}, {\"Column183\", type any}, {\"Column184\", type any}, {\"Column185\", type any}, {\"Column186\", type any}, {\"Column187\", type any}, {\"Column188\", type any}, {\"Column189\", type any}, {\"Column190\", type any}, {\"Column191\", type any}, {\"Column192\", type any}, {\"Column193\", type any}, {\"Column194\", type any}, {\"Column195\", type any}, {\"Column196\", type any}, {\"Column197\", type any}, {\"Column198\", type any}, {\"Column199\", type any}, {\"Column200\", type any}, {\"Column201\", type any}, {\"Column202\", type any}, {\"Column203\", type any}, {\"Column204\", type any}, {\"Column205\", type any}, {\"Column206\", type any}, {\"Column207\", type any}, {\"Column208\", type any}, {\"Column209\", type any}, {\"Column210\", type any}, {\"Column211\", type date}, {\"Column212\", type date}, {\"Column213\", type date}, {\"Column214\", type date}, {\"Column215\", type date}, {\"Column216\", type date}, {\"Column217\", type date}}),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"State\", type text}, {\"01/01/2007\", type number}, {\"01/02/2007\", type number}, {\"01/03/2007\", type number}, {\"01/04/2007\", type number}, {\"01/05/2007\", type number}, {\"01/06/2007\", type number}, {\"01/07/2007\", type number}, {\"01/08/2007\", type number}, {\"01/09/2007\", type number}, {\"01/10/2007\", type number}, {\"01/11/2007\", type number}, {\"01/12/2007\", type number}, {\"01/01/2008\", type number}, {\"01/02/2008\", type number}, {\"01/03/2008\", type number}, {\"01/04/2008\", type number}, {\"01/05/2008\", type number}, {\"01/06/2008\", type number}, {\"01/07/2008\", type number}, {\"01/08/2008\", type number}, {\"01/09/2008\", type number}, {\"01/10/2008\", type number}, {\"01/11/2008\", type number}, {\"01/12/2008\", type number}, {\"01/01/2009\", type number}, {\"01/02/2009\", type number}, {\"01/03/2009\", type number}, {\"01/04/2009\", type number}, {\"01/05/2009\", type number}, {\"01/06/2009\", type number}, {\"01/07/2009\", type number}, {\"01/08/2009\", type number}, {\"01/09/2009\", type number}, {\"01/10/2009\", type number}, {\"01/11/2009\", type number}, {\"02/12/2009\", type number}, {\"01/01/2010\", type number}, {\"01/02/2010\", type number}, {\"01/03/2010\", type number}, {\"01/04/2010\", type number}, {\"01/05/2010\", type number}, {\"01/06/2010\", type number}, {\"01/07/2010\", type number}, {\"01/08/2010\", type number}, {\"01/09/2010\", type number}, {\"01/10/2010\", type number}, {\"01/11/2010\", type number}, {\"01/12/2010\", type number}, {\"01/01/2011\", type number}, {\"01/02/2011\", type number}, {\"01/03/2011\", type number}, {\"01/04/2011\", type number}, {\"01/05/2011\", type number}, {\"01/06/2011\", type number}, {\"01/07/2011\", type number}, {\"01/08/2011\", type number}, {\"01/09/2011\", type number}, {\"01/10/2011\", type number}, {\"01/11/2011\", type number}, {\"01/12/2011\", type number}, {\"01/01/2012\", type number}, {\"01/02/2012\", type number}, {\"01/03/2012\", type number}, {\"01/04/2012\", type number}, {\"01/05/2012\", type number}, {\"01/06/2012\", type number}, {\"01/07/2012\", type number}, {\"01/08/2012\", type number}, {\"01/09/2012\", type number}, {\"01/10/2012\", type number}, {\"01/11/2012\", type number}, {\"01/12/2012\", type number}, {\"01/01/2013\", type number}, {\"01/02/2013\", type number}, {\"01/03/2013\", type number}, {\"01/04/2013\", type number}, {\"01/05/2013\", type number}, {\"01/06/2013\", type number}, {\"01/07/2013\", type number}, {\"01/08/2013\", type number}, {\"01/09/2013\", type number}, {\"01/10/2013\", type number}, {\"01/11/2013\", type number}, {\"01/12/2013\", type number}, {\"01/01/2014\", type number}, {\"01/02/2014\", type number}, {\"01/03/2014\", type number}, {\"01/04/2014\", type number}, {\"01/05/2014\", type number}, {\"01/06/2014\", type number}, {\"01/07/2014\", type number}, {\"01/08/2014\", type number}, {\"01/09/2014\", type number}, {\"01/10/2014\", type number}, {\"01/11/2014\", type number}, {\"01/12/2014\", type number}, {\"01/01/2015\", type number}, {\"01/02/2015\", type number}, {\"01/03/2015\", type number}, {\"01/04/2015\", type number}, {\"01/05/2015\", type number}, {\"01/06/2015\", type number}, {\"01/07/2015\", type number}, {\"01/08/2015\", type number}, {\"01/09/2015\", type number}, {\"01/10/2015\", type number}, {\"01/11/2015\", type number}, {\"01/12/2015\", type number}, {\"01/01/2016\", type number}, {\"01/02/2016\", type number}, {\"01/03/2016\", type number}, {\"01/04/2016\", type number}, {\"01/05/2016\", type number}, {\"01/06/2016\", type number}, {\"01/07/2016\", type number}, {\"01/08/2016\", type number}, {\"01/09/2016\", type number}, {\"01/10/2016\", type number}, {\"01/11/2016\", type number}, {\"01/12/2016\", type number}, {\"01/01/2017\", type number}, {\"01/02/2017\", type number}, {\"01/03/2017\", type number}, {\"01/04/2017\", type number}, {\"01/05/2017\", type number}, {\"01/06/2017\", type number}, {\"01/07/2017\", type number}, {\"01/08/2017\", type number}, {\"01/09/2017\", type number}, {\"01/10/2017\", type number}, {\"01/11/2017\", type number}, {\"01/12/2017\", type number}, {\"18/01/2018\", type number}, {\"18/02/2018\", type number}, {\"18/03/2018\", type number}, {\"18/04/2018\", type number}, {\"18/05/2018\", type number}, {\"18/06/2018\", type number}, {\"18/07/2018\", type number}, {\"18/08/2018\", type number}, {\"01/09/2018\", type number}, {\"01/10/2018\", type number}, {\"01/11/2018\", type number}, {\"01/12/2018\", type number}, {\"01/01/2019\", type number}, {\"01/02/2019\", type number}, {\"01/03/2019\", type number}, {\"01/04/2019\", type number}, {\"01/05/2019\", type number}, {\"01/06/2019\", type number}, {\"01/07/2019\", type number}, {\"01/08/2019\", type number}, {\"01/09/2019\", type number}, {\"01/10/2019\", type number}, {\"01/11/2019\", type number}, {\"01/12/2019\", type number}, {\"01/01/2020\", type number}, {\"01/02/2020\", type number}, {\"01/03/2020\", type number}, {\"01/04/2020\", type number}, {\"01/05/2020\", type number}, {\"01/06/2020\", type number}, {\"01/07/2020\", type number}, {\"01/08/2020\", type number}, {\"01/09/2020\", type number}, {\"01/10/2020\", type number}, {\"01/11/2020\", type number}, {\"01/12/2020\", type number}, {\"01/01/2021\", type number}, {\"01/02/2021\", type number}, {\"01/03/2021\", Int64.Type}, {\"01/04/2021\", Int64.Type}, {\"01/05/2021\", Int64.Type}, {\"01/06/2021\", Int64.Type}, {\"01/07/2021\", Int64.Type}, {\"01/08/2021\", Int64.Type}, {\"01/09/2021\", type number}, {\"01/10/2021\", type number}, {\"01/11/2021\", type number}, {\"01/12/2021\", type number}, {\"01/01/2022\", type number}, {\"01/02/2022\", type number}, {\"01/03/2022\", type number}, {\"01/04/2022\", type number}, {\"01/05/2022\", type number}, {\"01/06/2022\", type number}, {\"01/07/2022\", type number}, {\"01/08/2022\", Int64.Type}, {\"01/09/2022\", Int64.Type}, {\"01/10/2022\", Int64.Type}, {\"01/11/2022\", Int64.Type}, {\"01/12/2022\", Int64.Type}, {\"01/01/2023\", Int64.Type}, {\"01/02/2023\", Int64.Type}, {\"01/03/2023\", type number}, {\"01/04/2023\", type number}, {\"01/05/2023\", type number}, {\"01/06/2023\", type number}, {\"01/07/2023\", type number}, {\"01/08/2023\", type number}, {\"01/09/2023\", type number}, {\"01/10/2023\", type number}, {\"01/11/2023\", type number}, {\"01/12/2023\", type number}, {\"01/01/2024\", type number}, {\"01/02/2024\", type number}, {\"01/03/2024\", type number}, {\"01/04/2024\", type number}, {\"01/05/2024\", type number}, {\"01/06/2024\", type date}, {\"01/07/2024\", type date}, {\"01/08/2024\", type date}, {\"01/09/2024\", type date}, {\"01/10/2024\", type date}, {\"01/11/2024\", type date}, {\"01/12/2024\", type date}}),",
+                "    #\"Unpivoted Other Columns\" = Table.UnpivotOtherColumns(#\"Changed Type1\", {\"State\"}, \"Attribute\", \"Value\"),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Unpivoted Other Columns\",{{\"Value\", Currency.Type}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type2\",{{\"Attribute\", \"Date\"}, {\"Value\", \"Allocation\"}}),",
+                "    #\"Changed Type3\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"Date\", type date}})",
+                "in",
+                "    #\"Changed Type3\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Calendar",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "29b6b59c261747cd9eb0bdb3c6a66f6f"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "9e1c857b-3497-4f71-b3e3-30b8d1a20c91",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT('Calendar'[Date], \"mmm\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "150cd26d-79d9-462a-995e-336e5eb6865b",
+            "sortByColumn": "Month No.",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month No.",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "MONTH('Calendar'[Date])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "2b39f99d-9e54-4379-b67a-ef02ee06ec87",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "YEAR('Calendar'[Date])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "39af22bb-e1c9-4867-840f-747c7522a597",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "FORMAT('Calendar'[Date], \"\\Qtr Q\")",
+            "isDataTypeInferred": true,
+            "lineageTag": "dbdac9ef-3490-4a19-8e25-f45ce4356d2a",
+            "sortByColumn": "Quater No.",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quater No.",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "QUARTER('Calendar'[Date])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "d8af8024-dfaf-4283-a200-f2034ee7e78b",
+            "summarizeBy": "sum",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "0e99507e-0f76-42a1-bdd8-7f8e54fcf1fb",
+        "partitions": [
+          {
+            "name": "Calendar",
+            "mode": "import",
+            "source": {
+              "expression": "CALENDARAUTO()",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Distinct States",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "293d0dd2e8ea4a5f89652f15da96b9fd"
+          }
+        ],
+        "columns": [
+          {
+            "name": "STATE",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "bf3b1ffa-b176-49b8-b9aa-6e974787facf",
+            "sourceColumn": "LGA[STATE]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "68122b03-8764-4b03-b592-f9bc728e3cdc",
+        "partitions": [
+          {
+            "name": "Distinct States",
+            "mode": "import",
+            "source": {
+              "expression": "VALUES(LGA[State])",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Time Intelligence",
+        "calculationGroup": {
+          "calculationItems": [
+            {
+              "name": "Current Yr",
+              "expression": "SELECTEDMEASURE()"
+            },
+            {
+              "name": "Prev Yr",
+              "expression": "CALCULATE(SELECTEDMEASURE(), DATEADD('Calendar'[Date], -1, YEAR))"
+            },
+            {
+              "name": "VAR",
+              "expression": [
+                "VAR _Curr = SELECTEDMEASURE()",
+                "        VAR _Prev = CALCULATE(SELECTEDMEASURE(), DATEADD('Calendar'[Date], -1, YEAR))",
+                "        VAR _Result = _Curr - _Prev",
+                "        RETURN",
+                "        _Result"
+              ]
+            },
+            {
+              "name": "VAR %",
+              "expression": [
+                "VAR _Curr = SELECTEDMEASURE()",
+                "        VAR _Prev = CALCULATE(SELECTEDMEASURE(), DATEADD('Calendar'[Date], -1, YEAR))",
+                "        VAR _Result = DIVIDE(_Curr - _Prev, _Prev)",
+                "        RETURN",
+                "        _Result"
+              ],
+              "formatStringDefinition": {
+                "expression": "\"0.00%\""
+              }
+            }
+          ]
+        },
+        "columns": [
+          {
+            "name": "Calculation group column",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "966efed0-62cf-4790-a496-1040adf57bfc",
+            "sortByColumn": "Ordinal",
+            "sourceColumn": "Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Ordinal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e5e87baa-bb60-43c7-9dcd-5bf0cfc9fca0",
+            "sourceColumn": "Ordinal",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "4dcefd67-bd5a-478a-abc7-6feeb7dd6ad5",
+        "partitions": [
+          {
+            "name": "Time Intelligence",
+            "mode": "import",
+            "source": {
+              "type": "calculationGroup"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Measure",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "384608df317e4bc0b03b55d06659d458"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Measure",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "e9fea72e-c60f-4c67-bfcd-bfddb56d9177",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "Measure Fields"
+                }
+              ]
+            },
+            "sortByColumn": "Measure Order",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Measure Fields",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "kind": 2,
+                  "version": 3
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "75e78da2-3ebf-4dd6-9fb4-60131f5b01c3",
+            "sortByColumn": "Measure Order",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Measure Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "c3ea4721-8640-46df-979a-3f8edcf59539",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "4fd6db35-a323-4993-9351-4ae3ed26130c",
+        "measures": [
+          {
+            "name": "Switch",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "SWITCH(SELECTEDVALUE('Measure'[Measure Order]),",
+              "                0, [LGA Allocation],",
+              "                1, State[State Allocation])"
+            ],
+            "lineageTag": "ec5ea0e1-1811-4e66-8eb9-c1e400c0c289"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Measure",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "{",
+                "    (\"LGA Allocation\", NAMEOF('LGA'[LGA Allocation]), 0),",
+                "    (\"State Allocation\", NAMEOF('State'[State Allocation]), 1)",
+                "}"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dashboard measure",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "bf4b2951-d4f6-4efc-8e66-80db128521b1",
+        "measures": [
+          {
+            "name": "Prev Yr",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "CALCULATE([Switch], DATEADD('Calendar'[Date], -1, YEAR))",
+            "lineageTag": "fa958458-93e6-4afe-a81e-46933a92ca00"
+          },
+          {
+            "name": "VAR",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "VAR _Curr = [Switch]",
+              "        VAR _Prev = CALCULATE([Switch], DATEADD('Calendar'[Date], -1, YEAR))",
+              "        VAR _Result = _Curr - _Prev",
+              "        RETURN",
+              "        _Result"
+            ],
+            "lineageTag": "32d705e1-2702-4cda-9d73-9c4be5889a96"
+          },
+          {
+            "name": "VAR %",
+            "expression": [
+              "VAR _Curr = [Switch]",
+              "        VAR _Prev = CALCULATE([Switch], DATEADD('Calendar'[Date], -1, YEAR))",
+              "        VAR _Result = DIVIDE(_Curr - _Prev, _Prev)",
+              "        RETURN",
+              "        _Result"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "eeb1182d-23e1-4d76-ad66-6ddda86f3548"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Dashboard measure",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Column1\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 5.9586597597188726,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 6,
+            "y": 0
+          },
+          "nodeIndex": "LGA",
+          "nodeLineageTag": "0f023655-eb0a-4a87-b6f8-803b304c70cc",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 350,
+            "y": 0
+          },
+          "nodeIndex": "State",
+          "nodeLineageTag": "18ed6d07-c053-41a6-881f-e3567bffc05c",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 89.372062162530142,
+            "y": 314.25587567493972
+          },
+          "nodeIndex": "Calendar",
+          "nodeLineageTag": "0e99507e-0f76-42a1-bdd8-7f8e54fcf1fb",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 396,
+            "y": 208.5
+          },
+          "nodeIndex": "Distinct States",
+          "nodeLineageTag": "68122b03-8764-4b03-b592-f9bc728e3cdc",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 674,
+            "y": 140.25
+          },
+          "nodeIndex": "Time Intelligence",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 952,
+            "y": 128.25
+          },
+          "nodeIndex": "Measure",
+          "nodeLineageTag": "4fd6db35-a323-4993-9351-4ae3ed26130c",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1230,
+            "y": 152.25
+          },
+          "nodeIndex": "Dashboard measure",
+          "nodeLineageTag": "bf4b2951-d4f6-4efc-8e66-80db128521b1",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 50.346892102823112,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
