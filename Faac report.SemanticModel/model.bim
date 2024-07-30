@@ -3480,7 +3480,8 @@
                 "let",
                 "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\yusuf\\Downloads\\FAAC DATA - Data Community.xlsx\"), null, true),",
                 "    LGA_Sheet = Source{[Item=\"LGA\",Kind=\"Sheet\"]}[Data],",
-                "    #\"Changed Type\" = Table.TransformColumnTypes(LGA_Sheet,{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type any}, {\"Column4\", type any}, {\"Column5\", type any}, {\"Column6\", type any}, {\"Column7\", type any}, {\"Column8\", type any}, {\"Column9\", type any}, {\"Column10\", type any}, {\"Column11\", type any}, {\"Column12\", type any}, {\"Column13\", type any}, {\"Column14\", type any}, {\"Column15\", type any}, {\"Column16\", type any}, {\"Column17\", type any}, {\"Column18\", type any}, {\"Column19\", type any}, {\"Column20\", type any}, {\"Column21\", type any}, {\"Column22\", type any}, {\"Column23\", type any}, {\"Column24\", type any}, {\"Column25\", type any}, {\"Column26\", type any}, {\"Column27\", type any}, {\"Column28\", type any}, {\"Column29\", type any}, {\"Column30\", type any}, {\"Column31\", type any}, {\"Column32\", type any}, {\"Column33\", type any}, {\"Column34\", type any}, {\"Column35\", type any}, {\"Column36\", type any}, {\"Column37\", type any}, {\"Column38\", type any}, {\"Column39\", type any}, {\"Column40\", type any}, {\"Column41\", type any}, {\"Column42\", type any}, {\"Column43\", type any}, {\"Column44\", type any}, {\"Column45\", type any}, {\"Column46\", type any}, {\"Column47\", type any}, {\"Column48\", type any}, {\"Column49\", type any}, {\"Column50\", type any}, {\"Column51\", type any}, {\"Column52\", type any}, {\"Column53\", type any}, {\"Column54\", type any}, {\"Column55\", type any}, {\"Column56\", type any}, {\"Column57\", type any}, {\"Column58\", type any}, {\"Column59\", type any}, {\"Column60\", type any}, {\"Column61\", type any}, {\"Column62\", type any}, {\"Column63\", type any}, {\"Column64\", type any}, {\"Column65\", type any}, {\"Column66\", type any}, {\"Column67\", type any}, {\"Column68\", type any}, {\"Column69\", type any}, {\"Column70\", type any}, {\"Column71\", type any}, {\"Column72\", type any}, {\"Column73\", type any}, {\"Column74\", type any}, {\"Column75\", type any}, {\"Column76\", type any}, {\"Column77\", type any}, {\"Column78\", type any}, {\"Column79\", type any}, {\"Column80\", type any}, {\"Column81\", type any}, {\"Column82\", type any}, {\"Column83\", type any}, {\"Column84\", type any}, {\"Column85\", type any}, {\"Column86\", type any}, {\"Column87\", type any}, {\"Column88\", type any}, {\"Column89\", type any}, {\"Column90\", type any}, {\"Column91\", type any}, {\"Column92\", type any}, {\"Column93\", type any}, {\"Column94\", type any}, {\"Column95\", type any}, {\"Column96\", type any}, {\"Column97\", type any}, {\"Column98\", type any}, {\"Column99\", type any}, {\"Column100\", type any}, {\"Column101\", type any}, {\"Column102\", type any}, {\"Column103\", type any}, {\"Column104\", type any}, {\"Column105\", type any}, {\"Column106\", type any}, {\"Column107\", type any}, {\"Column108\", type any}, {\"Column109\", type any}, {\"Column110\", type any}, {\"Column111\", type any}, {\"Column112\", type any}, {\"Column113\", type any}, {\"Column114\", type any}, {\"Column115\", type any}, {\"Column116\", type any}, {\"Column117\", type any}, {\"Column118\", type any}, {\"Column119\", type any}, {\"Column120\", type any}, {\"Column121\", type any}, {\"Column122\", type any}, {\"Column123\", type any}, {\"Column124\", type any}, {\"Column125\", type any}, {\"Column126\", type any}, {\"Column127\", type any}, {\"Column128\", type any}, {\"Column129\", type any}, {\"Column130\", type any}, {\"Column131\", type any}, {\"Column132\", type any}, {\"Column133\", type any}, {\"Column134\", type any}, {\"Column135\", type any}, {\"Column136\", type any}, {\"Column137\", type any}, {\"Column138\", type any}, {\"Column139\", type any}, {\"Column140\", type any}, {\"Column141\", type any}, {\"Column142\", type any}, {\"Column143\", type any}, {\"Column144\", type any}, {\"Column145\", type any}, {\"Column146\", type any}, {\"Column147\", type any}, {\"Column148\", type any}, {\"Column149\", type any}, {\"Column150\", type any}, {\"Column151\", type any}, {\"Column152\", type any}, {\"Column153\", type any}, {\"Column154\", type any}, {\"Column155\", type any}, {\"Column156\", type any}, {\"Column157\", type any}, {\"Column158\", type any}, {\"Column159\", type any}, {\"Column160\", type any}, {\"Column161\", type any}, {\"Column162\", type any}, {\"Column163\", type any}, {\"Column164\", type any}, {\"Column165\", type any}, {\"Column166\", type any}, {\"Column167\", type any}, {\"Column168\", type any}, {\"Column169\", type any}, {\"Column170\", type any}, {\"Column171\", type any}, {\"Column172\", type any}, {\"Column173\", type date}, {\"Column174\", type date}, {\"Column175\", type date}, {\"Column176\", type date}, {\"Column177\", type date}, {\"Column178\", type date}, {\"Column179\", type date}, {\"Column180\", type date}, {\"Column181\", type date}, {\"Column182\", type any}, {\"Column183\", type any}, {\"Column184\", type any}, {\"Column185\", type any}, {\"Column186\", type any}, {\"Column187\", type any}, {\"Column188\", type any}, {\"Column189\", type any}, {\"Column190\", type any}, {\"Column191\", type any}, {\"Column192\", type any}, {\"Column193\", type any}, {\"Column194\", type any}, {\"Column195\", type any}, {\"Column196\", type any}, {\"Column197\", type any}, {\"Column198\", type any}, {\"Column199\", type any}, {\"Column200\", type any}, {\"Column201\", type any}, {\"Column202\", type any}, {\"Column203\", type any}, {\"Column204\", type any}, {\"Column205\", type any}, {\"Column206\", type any}, {\"Column207\", type any}, {\"Column208\", type any}, {\"Column209\", type any}, {\"Column210\", type any}, {\"Column211\", type any}}),",
+                "    #\"Filtered Rows\" = Table.SelectRows(LGA_Sheet, each ([Column1] <> \"AVERAGE\" and [Column1] <> \"TOTAL\")),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Filtered Rows\",{{\"Column1\", type text}, {\"Column2\", type text}, {\"Column3\", type any}, {\"Column4\", type any}, {\"Column5\", type any}, {\"Column6\", type any}, {\"Column7\", type any}, {\"Column8\", type any}, {\"Column9\", type any}, {\"Column10\", type any}, {\"Column11\", type any}, {\"Column12\", type any}, {\"Column13\", type any}, {\"Column14\", type any}, {\"Column15\", type any}, {\"Column16\", type any}, {\"Column17\", type any}, {\"Column18\", type any}, {\"Column19\", type any}, {\"Column20\", type any}, {\"Column21\", type any}, {\"Column22\", type any}, {\"Column23\", type any}, {\"Column24\", type any}, {\"Column25\", type any}, {\"Column26\", type any}, {\"Column27\", type any}, {\"Column28\", type any}, {\"Column29\", type any}, {\"Column30\", type any}, {\"Column31\", type any}, {\"Column32\", type any}, {\"Column33\", type any}, {\"Column34\", type any}, {\"Column35\", type any}, {\"Column36\", type any}, {\"Column37\", type any}, {\"Column38\", type any}, {\"Column39\", type any}, {\"Column40\", type any}, {\"Column41\", type any}, {\"Column42\", type any}, {\"Column43\", type any}, {\"Column44\", type any}, {\"Column45\", type any}, {\"Column46\", type any}, {\"Column47\", type any}, {\"Column48\", type any}, {\"Column49\", type any}, {\"Column50\", type any}, {\"Column51\", type any}, {\"Column52\", type any}, {\"Column53\", type any}, {\"Column54\", type any}, {\"Column55\", type any}, {\"Column56\", type any}, {\"Column57\", type any}, {\"Column58\", type any}, {\"Column59\", type any}, {\"Column60\", type any}, {\"Column61\", type any}, {\"Column62\", type any}, {\"Column63\", type any}, {\"Column64\", type any}, {\"Column65\", type any}, {\"Column66\", type any}, {\"Column67\", type any}, {\"Column68\", type any}, {\"Column69\", type any}, {\"Column70\", type any}, {\"Column71\", type any}, {\"Column72\", type any}, {\"Column73\", type any}, {\"Column74\", type any}, {\"Column75\", type any}, {\"Column76\", type any}, {\"Column77\", type any}, {\"Column78\", type any}, {\"Column79\", type any}, {\"Column80\", type any}, {\"Column81\", type any}, {\"Column82\", type any}, {\"Column83\", type any}, {\"Column84\", type any}, {\"Column85\", type any}, {\"Column86\", type any}, {\"Column87\", type any}, {\"Column88\", type any}, {\"Column89\", type any}, {\"Column90\", type any}, {\"Column91\", type any}, {\"Column92\", type any}, {\"Column93\", type any}, {\"Column94\", type any}, {\"Column95\", type any}, {\"Column96\", type any}, {\"Column97\", type any}, {\"Column98\", type any}, {\"Column99\", type any}, {\"Column100\", type any}, {\"Column101\", type any}, {\"Column102\", type any}, {\"Column103\", type any}, {\"Column104\", type any}, {\"Column105\", type any}, {\"Column106\", type any}, {\"Column107\", type any}, {\"Column108\", type any}, {\"Column109\", type any}, {\"Column110\", type any}, {\"Column111\", type any}, {\"Column112\", type any}, {\"Column113\", type any}, {\"Column114\", type any}, {\"Column115\", type any}, {\"Column116\", type any}, {\"Column117\", type any}, {\"Column118\", type any}, {\"Column119\", type any}, {\"Column120\", type any}, {\"Column121\", type any}, {\"Column122\", type any}, {\"Column123\", type any}, {\"Column124\", type any}, {\"Column125\", type any}, {\"Column126\", type any}, {\"Column127\", type any}, {\"Column128\", type any}, {\"Column129\", type any}, {\"Column130\", type any}, {\"Column131\", type any}, {\"Column132\", type any}, {\"Column133\", type any}, {\"Column134\", type any}, {\"Column135\", type any}, {\"Column136\", type any}, {\"Column137\", type any}, {\"Column138\", type any}, {\"Column139\", type any}, {\"Column140\", type any}, {\"Column141\", type any}, {\"Column142\", type any}, {\"Column143\", type any}, {\"Column144\", type any}, {\"Column145\", type any}, {\"Column146\", type any}, {\"Column147\", type any}, {\"Column148\", type any}, {\"Column149\", type any}, {\"Column150\", type any}, {\"Column151\", type any}, {\"Column152\", type any}, {\"Column153\", type any}, {\"Column154\", type any}, {\"Column155\", type any}, {\"Column156\", type any}, {\"Column157\", type any}, {\"Column158\", type any}, {\"Column159\", type any}, {\"Column160\", type any}, {\"Column161\", type any}, {\"Column162\", type any}, {\"Column163\", type any}, {\"Column164\", type any}, {\"Column165\", type any}, {\"Column166\", type any}, {\"Column167\", type any}, {\"Column168\", type any}, {\"Column169\", type any}, {\"Column170\", type any}, {\"Column171\", type any}, {\"Column172\", type any}, {\"Column173\", type date}, {\"Column174\", type date}, {\"Column175\", type date}, {\"Column176\", type date}, {\"Column177\", type date}, {\"Column178\", type date}, {\"Column179\", type date}, {\"Column180\", type date}, {\"Column181\", type date}, {\"Column182\", type any}, {\"Column183\", type any}, {\"Column184\", type any}, {\"Column185\", type any}, {\"Column186\", type any}, {\"Column187\", type any}, {\"Column188\", type any}, {\"Column189\", type any}, {\"Column190\", type any}, {\"Column191\", type any}, {\"Column192\", type any}, {\"Column193\", type any}, {\"Column194\", type any}, {\"Column195\", type any}, {\"Column196\", type any}, {\"Column197\", type any}, {\"Column198\", type any}, {\"Column199\", type any}, {\"Column200\", type any}, {\"Column201\", type any}, {\"Column202\", type any}, {\"Column203\", type any}, {\"Column204\", type any}, {\"Column205\", type any}, {\"Column206\", type any}, {\"Column207\", type any}, {\"Column208\", type any}, {\"Column209\", type any}, {\"Column210\", type any}, {\"Column211\", type any}}),",
                 "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
                 "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"STATE\", type text}, {\"LGC\", type text}, {\"01/01/2007\", type number}, {\"01/02/2007\", type number}, {\"01/03/2007\", type number}, {\"01/04/2007\", type number}, {\"01/05/2007\", type number}, {\"01/06/2007\", type number}, {\"01/07/2007\", type number}, {\"01/08/2007\", type number}, {\"01/09/2007\", type number}, {\"01/10/2007\", type number}, {\"01/11/2007\", type number}, {\"01/12/2007\", type number}, {\"01/01/2008\", type number}, {\"01/02/2008\", type number}, {\"01/03/2008\", type number}, {\"01/04/2008\", type number}, {\"01/05/2008\", type number}, {\"01/06/2008\", type number}, {\"01/07/2008\", type number}, {\"01/08/2008\", type number}, {\"01/09/2008\", type number}, {\"01/10/2008\", type number}, {\"01/11/2008\", type number}, {\"01/12/2008\", type number}, {\"01/01/2009\", type number}, {\"01/02/2009\", type number}, {\"01/03/2009\", type number}, {\"01/04/2009\", type number}, {\"01/05/2009\", type number}, {\"01/06/2009\", type number}, {\"01/07/2009\", type number}, {\"01/08/2009\", type number}, {\"01/09/2009\", type number}, {\"01/10/2009\", type number}, {\"01/11/2009\", type number}, {\"01/12/2009\", type number}, {\"01/01/2010\", type number}, {\"01/02/2010\", type number}, {\"01/03/2010\", type number}, {\"01/04/2010\", type number}, {\"01/05/2010\", type number}, {\"01/06/2010\", type number}, {\"01/07/2010\", type number}, {\"01/08/2010\", type number}, {\"01/09/2010\", type number}, {\"01/10/2010\", type number}, {\"01/11/2010\", type number}, {\"01/12/2010\", type number}, {\"01/01/2011\", type number}, {\"01/02/2011\", type number}, {\"01/03/2011\", type number}, {\"01/04/2011\", type number}, {\"01/05/2011\", type number}, {\"01/06/2011\", type number}, {\"01/07/2011\", type number}, {\"01/08/2011\", type number}, {\"01/09/2011\", type number}, {\"01/10/2011\", type number}, {\"01/11/2011\", type number}, {\"01/12/2011\", type number}, {\"01/01/2012\", type number}, {\"01/02/2012\", type number}, {\"01/03/2012\", type number}, {\"01/04/2012\", type number}, {\"01/05/2012\", type number}, {\"01/06/2012\", type number}, {\"01/07/2012\", type number}, {\"01/08/2012\", type number}, {\"01/09/2012\", type number}, {\"01/10/2012\", type number}, {\"01/11/2012\", type number}, {\"01/12/2012\", type number}, {\"01/01/2013\", type number}, {\"01/02/2013\", type number}, {\"01/03/2013\", type number}, {\"01/04/2013\", type number}, {\"01/05/2013\", type number}, {\"01/06/2013\", type number}, {\"01/07/2013\", type number}, {\"01/08/2013\", type number}, {\"01/09/2013\", type number}, {\"01/10/2013\", type number}, {\"01/11/2013\", type number}, {\"01/12/2013\", type number}, {\"01/01/2014\", type number}, {\"01/02/2014\", type number}, {\"01/03/2014\", type number}, {\"01/04/2014\", type number}, {\"01/05/2014\", type number}, {\"01/06/2014\", type number}, {\"01/07/2014\", type number}, {\"01/08/2014\", type number}, {\"01/09/2014\", type number}, {\"01/10/2014\", type number}, {\"01/11/2014\", type number}, {\"01/12/2014\", type number}, {\"01/01/2015\", type number}, {\"01/02/2015\", type number}, {\"01/03/2015\", type number}, {\"01/04/2015\", type number}, {\"01/05/2015\", type number}, {\"01/06/2015\", type number}, {\"01/07/2015\", type number}, {\"01/08/2015\", type number}, {\"01/09/2015\", type number}, {\"01/10/2015\", type number}, {\"01/11/2015\", type number}, {\"01/12/2015\", type number}, {\"01/01/2016\", type number}, {\"01/02/2016\", type number}, {\"01/03/2016\", type number}, {\"01/04/2016\", type number}, {\"01/05/2016\", type number}, {\"01/06/2016\", type number}, {\"01/07/2016\", type number}, {\"01/08/2016\", type number}, {\"01/09/2016\", type number}, {\"01/10/2016\", type number}, {\"01/11/2016\", type number}, {\"01/12/2016\", type number}, {\"01/01/2017\", type number}, {\"01/02/2017\", type number}, {\"01/03/2017\", type number}, {\"01/04/2017\", type number}, {\"01/05/2017\", type number}, {\"01/06/2017\", type number}, {\"01/07/2017\", type number}, {\"01/08/2017\", type number}, {\"01/09/2017\", type number}, {\"01/10/2017\", type number}, {\"01/11/2017\", type number}, {\"01/12/2017\", type number}, {\"01/01/2018\", type number}, {\"01/02/2018\", type number}, {\"01/03/2018\", type number}, {\"01/04/2018\", type number}, {\"01/05/2018\", type number}, {\"01/06/2018\", type number}, {\"01/07/2018\", type number}, {\"01/08/2018\", type number}, {\"01/09/2018\", type number}, {\"01/10/2018\", type number}, {\"01/11/2018\", type number}, {\"01/12/2018\", type number}, {\"01/01/2019\", type number}, {\"01/02/2019\", type number}, {\"01/03/2019\", type number}, {\"01/04/2019\", type number}, {\"01/05/2019\", type number}, {\"01/06/2019\", type number}, {\"01/07/2019\", type number}, {\"01/08/2019\", type number}, {\"01/09/2019\", type number}, {\"01/10/2019\", type number}, {\"01/11/2019\", type number}, {\"01/12/2019\", type number}, {\"01/01/2020\", type number}, {\"01/02/2020\", type number}, {\"01/03/2020\", type number}, {\"01/04/2020\", type number}, {\"01/05/2020\", type number}, {\"01/06/2020\", type number}, {\"01/07/2020\", type number}, {\"01/08/2020\", type number}, {\"01/09/2020\", type number}, {\"01/10/2020\", type number}, {\"01/11/2020\", type number}, {\"01/12/2020\", type number}, {\"01/01/2021\", type number}, {\"01/02/2021\", type number}, {\"01/03/2021\", type date}, {\"01/04/2021\", type date}, {\"01/05/2021\", type date}, {\"01/06/2021\", type date}, {\"01/07/2021\", type date}, {\"01/08/2021\", type date}, {\"01/09/2021\", type date}, {\"01/10/2021\", type date}, {\"01/11/2021\", type date}, {\"01/12/2021\", type number}, {\"01/01/2022\", type number}, {\"01/02/2022\", type number}, {\"01/03/2022\", type number}, {\"01/04/2022\", type number}, {\"01/05/2022\", type number}, {\"01/06/2022\", type number}, {\"01/07/2022\", type number}, {\"01/08/2022\", type number}, {\"01/09/2022\", type number}, {\"01/10/2022\", type number}, {\"01/11/2022\", type number}, {\"01/12/2022\", type number}, {\"01/01/2023\", type number}, {\"01/02/2023\", type number}, {\"01/03/2023\", type number}, {\"01/04/2023\", type number}, {\"01/05/2023\", type number}, {\"01/06/2023\", type number}, {\"01/07/2023\", type number}, {\"01/08/2023\", type number}, {\"01/09/2023\", type number}, {\"01/10/2023\", type number}, {\"01/11/2023\", type number}, {\"01/12/2023\", type number}, {\"01/01/2024\", type number}, {\"01/02/2024\", type number}, {\"01/03/2024\", type number}, {\"01/04/2024\", type number}, {\"01/05/2024\", type number}}),",
                 "    #\"Unpivoted Other Columns\" = Table.UnpivotOtherColumns(#\"Changed Type1\", {\"STATE\", \"LGC\"}, \"Attribute\", \"Value\"),",
@@ -3768,15 +3769,15 @@
         "calculationGroup": {
           "calculationItems": [
             {
-              "name": "Current Yr",
+              "name": "Current Year",
               "expression": "SELECTEDMEASURE()"
             },
             {
-              "name": "Prev Yr",
+              "name": "Previous Year",
               "expression": "CALCULATE(SELECTEDMEASURE(), DATEADD('Calendar'[Date], -1, YEAR))"
             },
             {
-              "name": "VAR",
+              "name": "Variance",
               "expression": [
                 "VAR _Curr = SELECTEDMEASURE()",
                 "        VAR _Prev = CALCULATE(SELECTEDMEASURE(), DATEADD('Calendar'[Date], -1, YEAR))",
@@ -3786,7 +3787,7 @@
               ]
             },
             {
-              "name": "VAR %",
+              "name": "Variance perc",
               "expression": [
                 "VAR _Curr = SELECTEDMEASURE()",
                 "        VAR _Prev = CALCULATE(SELECTEDMEASURE(), DATEADD('Calendar'[Date], -1, YEAR))",
@@ -4004,6 +4005,64 @@
             ],
             "formatString": "0.00%;-0.00%;0.00%",
             "lineageTag": "eeb1182d-23e1-4d76-ad66-6ddda86f3548"
+          },
+          {
+            "name": "LGC Count",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DISTINCTCOUNT(LGA[LGC])",
+            "lineageTag": "a2a76d7e-f65b-41a1-8a72-3a57af9d772e"
+          },
+          {
+            "name": "State Count",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "DISTINCTCOUNT(State[State])",
+            "lineageTag": "061e0292-9829-4074-883b-7043fd4d9564"
+          },
+          {
+            "name": "Compare filter",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "IF(SELECTEDVALUE('First State'[State]) = SELECTEDVALUE('Second State'[State]), 0,1)",
+            "lineageTag": "4138a18d-a2fa-43d5-885f-e7f3904d61f5"
+          },
+          {
+            "name": "Compare measure",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(State[State Allocation], ",
+              "                FILTER(State, State[State] IN {SELECTEDVALUE('First State'[State]), SELECTEDVALUE('Second State'[State]) }))"
+            ],
+            "lineageTag": "11a65aeb-6c0c-47d2-bd36-6e336397dbe3"
+          },
+          {
+            "name": "Compare Title",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "\"You are comparing \" & SELECTEDVALUE('First State'[State]) & \" and \" & SELECTEDVALUE('Second State'[State]) & \" for year \"& SELECTEDVALUE('Calendar'[Year])",
+            "lineageTag": "f6d80aaa-9fbe-41cb-95fd-7ae12efec0ea"
           }
         ],
         "partitions": [
@@ -4116,6 +4175,82 @@
                 "    (\"LGC\", NAMEOF('LGA'[LGC]), 0)",
                 "}"
               ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "First State",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "f6a8ed1e3e00438d9f2c5a40d5531858"
+          }
+        ],
+        "columns": [
+          {
+            "name": "State",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "b1f60ba4-cd57-4242-a85d-b1f4b45111fd",
+            "sourceColumn": "State[State]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "fc6ea3ea-2e43-4ec0-9853-23b9981b54a6",
+        "partitions": [
+          {
+            "name": "First State",
+            "mode": "import",
+            "source": {
+              "expression": "Values(State[State])",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Second State",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "4369c37ce5214df0bf6a6a5f75d12f51"
+          }
+        ],
+        "columns": [
+          {
+            "name": "State",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "ea9e9497-b567-4140-892d-09fcb23bd1ec",
+            "sourceColumn": "First State[State]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "e55ece1a-0117-4677-b793-5d1e83fbb180",
+        "partitions": [
+          {
+            "name": "Second State",
+            "mode": "import",
+            "source": {
+              "expression": "'First State'",
               "type": "calculated"
             }
           }
