@@ -619,7 +619,9 @@
                 },
                 "State": "Generated",
                 "Terms": [
-                  {},
+                  {
+                    "": {}
+                  },
                   {
                     "location": {
                       "Source": {
@@ -991,7 +993,9 @@
                 },
                 "State": "Generated",
                 "Terms": [
-                  {},
+                  {
+                    "": {}
+                  },
                   {
                     "location": {
                       "Source": {
@@ -1790,7 +1794,9 @@
                 },
                 "State": "Generated",
                 "Terms": [
-                  {},
+                  {
+                    "": {}
+                  },
                   {
                     "location": {
                       "Source": {
@@ -3355,6 +3361,15 @@
         "fromTable": "State",
         "toColumn": "STATE",
         "toTable": "Distinct States"
+      },
+      {
+        "name": "c3a44fa1-2dd5-5c74-f2a6-a31803a65e5f",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Measure Order",
+        "fromTable": "Measure",
+        "toColumn": "Selected Dimension Order",
+        "toTable": "Selected Dimension"
       }
     ],
     "sourceQueryCulture": "en-GB",
@@ -3386,6 +3401,7 @@
               }
             ],
             "dataType": "string",
+            "isHidden": true,
             "lineageTag": "363877c2-c3ff-4bc7-933f-32e135532b21",
             "sourceColumn": "STATE",
             "summarizeBy": "none"
@@ -3507,6 +3523,7 @@
               }
             ],
             "dataType": "string",
+            "isHidden": true,
             "lineageTag": "7b035c47-b217-45b4-8dfb-7e59333807eb",
             "sourceColumn": "State",
             "summarizeBy": "none"
@@ -3724,6 +3741,7 @@
                 "value": "Automatic"
               }
             ],
+            "dataCategory": "StateOrProvince",
             "dataType": "string",
             "isDataTypeInferred": true,
             "isNameInferred": true,
@@ -3899,7 +3917,7 @@
             "isNameInferred": false,
             "lineageTag": "c3ea4721-8640-46df-979a-3f8edcf59539",
             "sourceColumn": "[Value3]",
-            "summarizeBy": "sum",
+            "summarizeBy": "none",
             "type": "calculatedTableColumn"
           }
         ],
@@ -4002,6 +4020,103 @@
                 "    #\"Removed Columns\""
               ],
               "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Selected Dimension",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "7aee2a21882b4b928e4e770dceddb0e7"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Selected Dimension",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "1456c5c8-3c3d-445b-9ca1-81d2347a6627",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "Selected Dimension Fields"
+                }
+              ]
+            },
+            "sortByColumn": "Selected Dimension Order",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Selected Dimension Fields",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "kind": 2,
+                  "version": 3
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "a7a0fe65-3f8f-433c-b827-cd595d37039d",
+            "sortByColumn": "Selected Dimension Order",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Selected Dimension Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "8a9777e3-087d-40c3-859d-83533af2fc09",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "9f340987-caf6-4444-b074-373134d60062",
+        "partitions": [
+          {
+            "name": "Selected Dimension",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "{",
+                "    (\"State\", NAMEOF('State'[State]), 1),",
+                "    (\"LGC\", NAMEOF('LGA'[LGC]), 0)",
+                "}"
+              ],
+              "type": "calculated"
             }
           }
         ]
